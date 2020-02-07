@@ -1,0 +1,101 @@
+{
+  "id": "5db9999a-22d5-4a40-b863-00e09a36d36f",
+  "name": "order.pizza",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fe9ff635-917d-4cd5-b7a6-2d91b88b8c3e",
+          "required": true,
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "54530141-a86c-4a4c-baa4-6bb13941410c",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "c4be3bdf-432c-45f7-b988-2cf9dfa20325",
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "__$$time__",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "d0e0bd4d-81c6-4eaf-a89d-aac6b36843b7",
+          "required": true,
+          "dataType": "@pizza_topping",
+          "name": "pizza_topping",
+          "value": "$pizza_topping",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What toppings do you want on your pizza?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "f13b4773-6671-45fb-9632-58f3ad17463b",
+          "required": true,
+          "dataType": "@size",
+          "name": "size",
+          "value": "$size",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Great! We\u0027ve placed your order for $date at $time. See you then!",
+            "We have placed your order for a $size pizza with $pizza\\_topping, for pickup on $date-time at $date-time. See you then!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

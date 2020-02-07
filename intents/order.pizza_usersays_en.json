@@ -1,0 +1,140 @@
+[
+  {
+    "id": "f3fea381-9326-46c9-af89-343dc05c2d61",
+    "data": [
+      {
+        "text": "I want to order a ",
+        "userDefined": false
+      },
+      {
+        "text": "large",
+        "alias": "size",
+        "meta": "@size",
+        "userDefined": true
+      },
+      {
+        "text": " pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6b49591f-3d20-4d06-ba7a-4d41ab1d36a6",
+    "data": [
+      {
+        "text": "I want a chicken pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1f2e6f0b-37ee-4299-b454-f94faab89785",
+    "data": [
+      {
+        "text": "I\u0027d like to order a pizza for pickup ",
+        "userDefined": false
+      },
+      {
+        "text": "in 1 hour",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "53bf6488-f3ae-44a3-8546-a369f1b2e836",
+    "data": [
+      {
+        "text": "I want a pizza with pepper and mushroom",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e557953b-2f01-47a2-96f3-cb988855943b",
+    "data": [
+      {
+        "text": "I\u0027d like a small pizza with mushrooms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1c3927c1-ed8f-4424-bde3-f12f0543e5b3",
+    "data": [
+      {
+        "text": "I want to order a small pizza with chicken only",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e8720920-780e-4dc2-aa83-2f28eb3599a4",
+    "data": [
+      {
+        "text": "I want to order a ",
+        "userDefined": false
+      },
+      {
+        "text": "cheese pizza",
+        "alias": "pizza_topping",
+        "meta": "@pizza_topping",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "1 PM tomorrow",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5135aaa2-a4c1-4f42-a2ab-daa9b4df6810",
+    "data": [
+      {
+        "text": "can I order a cheese pizza for pickup ",
+        "userDefined": false
+      },
+      {
+        "text": "today at noon",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

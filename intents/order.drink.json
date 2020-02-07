@@ -1,0 +1,80 @@
+{
+  "id": "021aca98-7199-4645-a6b3-851da8d6ac60",
+  "name": "order.drink",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "62d515e9-166a-4f64-9c47-083f17870feb",
+          "required": false,
+          "dataType": "@drink",
+          "name": "drink",
+          "value": "$drink",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "96635989-d4df-487e-a853-e9edc43b032f",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "7e90bfdd-7f5a-4cc8-bb05-c7a78a9d116a",
+          "required": false,
+          "dataType": "@size",
+          "name": "size",
+          "value": "$size",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "7ca5e360-7434-4bbe-805b-ca39eb3942a4",
+          "required": false,
+          "dataType": "@sys.percentage",
+          "name": "percentage",
+          "value": "$percentage",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "I\u0027ve added your drink order"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
